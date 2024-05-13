@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.box-white {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.box-yellow {
+    background-color: #efcd46;
+}
+
+.box-blue {
+    background-color: #91cafa;
+}
+
+.box-red {
+    background-color: #e16f6b;
+}
+
+.box-green {
+    background-color: #bafca4;
+    max-height: 50px;
+    padding: 10px;
+
+}
+
+.first-img {
+    height: 170px;
+    max-width: 100px;
+    margin: 0px 60px;
+    padding: 10px 0px;
+    flex-grow: 1;
+}
+
+.second-img {
+    max-width: 160px;
+    height: 170px;
+    margin: 0px 60px;
+    padding: 10px 0px;
+    flex-grow: 2;
+}
+
+.third-img {
+    max-width: 160px;
+    height: 170px;
+    margin: 0px 70px;
+    padding: 10px 0px;
+    flex-grow: 3;
+}
+
+.fourth-img {
+    /* max-width: 270px; */
+    height: 170px;
+    margin: 0px 50px;
+    padding: 10px 0px;
+    flex-grow: 1;
+}
+
+.fifth-img {
+    /* max-width: 270px; */
+    height: 170px;
+    margin: 0px 60px;
+    padding: 10px 0px;
+    flex-grow: 1;
+}
+
+.sixth-img {
+    max-width: 120px;
+    height: 170px;
+    margin: 0px 50px;
+    padding: 10px 0px;
+    flex-grow: 1;
+}
+
+.seventh-img {
+    max-width: 150px;
+    height: 170px;
+    margin: 0px 40px;
+    padding: 10px 0px;
+    flex-grow: 2;
+}
+
+.eighth-img {
+    max-width: 240px;
+    height: 170px;
+    padding: 10px 60px;
+    flex-grow: 3;
+}
